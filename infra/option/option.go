@@ -88,3 +88,14 @@ func (c *ChartBase) NewChart(title string) *ChartBase {
 		Title: Title{Text: title},
 	}
 }
+func (c *ChartBase) SetTitle() {}
+
+func (c *ChartBase) SetToolTip() {}
+
+func (c *ChartBase) SetLegend() {}
+
+func (c *ChartBase) SetXAxis() {}
+
+func (c *ChartBase) SetYAxis() {}
+
+func (c *ChartBase) SetSeries() {}
